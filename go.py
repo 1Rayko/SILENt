@@ -49,6 +49,7 @@ r"""
 def main():
 	
 	print(random.choice(banners))
+	print("Version 0.1(beta)")
 	token=str(input("Telegram bot api token: "))
 	proc=str(input("Process name (no file extension): "))
 	#print("Admin id :");admin=int(input())
