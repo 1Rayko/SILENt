@@ -8,7 +8,7 @@ sudo apt install git -y &&
 git clone https://github.com/kotik06/SILENt &&
 cd SILENt &&
 chmod +x install.sh &&
-./install.sh &&
+./install.sh
 ```
 ### Arch 
 
@@ -17,7 +17,7 @@ sudo pacman -S git --noconfirm&&
 git clone https://github.com/kotik06/SILENt &&
 cd SILENt &&
 chmod +x install.sh &&
-./install.sh &&
+./install.sh 
 ```
 ### Termux 
 
@@ -26,7 +26,7 @@ pkg install git -y &&
 git clone https://github.com/kotik06/SILENt &&
 cd SILENt &&
 chmod +x install.sh &&
-./install.sh &&
+./install.sh
 ```
 ## Launch
 ```bash
