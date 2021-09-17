@@ -22,7 +22,7 @@ if pacman --help;then
 else
 	echo "Pacman не найден"
 fi
-python3 -m pip install pyTelegramBotAPI==0.3.0
+python3 -m pip install aiogram
 python3 -m pip install pyautogui
 python3 -m pip install opencv-python
 python3 -m pip install colorama
