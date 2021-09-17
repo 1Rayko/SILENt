@@ -9,7 +9,6 @@ git clone https://github.com/kotik06/SILENt &&
 cd SILENt &&
 chmod +x install.sh &&
 ./install.sh &&
-python3 go.py
 ```
 ### Arch 
 
@@ -19,7 +18,6 @@ git clone https://github.com/kotik06/SILENt &&
 cd SILENt &&
 chmod +x install.sh &&
 ./install.sh &&
-python3 go.py
 ```
 ### Termux 
 
@@ -29,7 +27,10 @@ git clone https://github.com/kotik06/SILENt &&
 cd SILENt &&
 chmod +x install.sh &&
 ./install.sh &&
-python3 go.py
+```
+## Launch
+```bash
+cd ~/SILENt && python3 go.py
 ```
 to create .exe file use pyinstaller and winrar
 
