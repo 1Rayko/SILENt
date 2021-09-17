@@ -1,7 +1,7 @@
-### SILENt
+# SILENt
 
-# Install
-## Debian/Ubuntu
+## Install
+### Debian/Ubuntu
 
 ```bash
 sudo apt install git -y &&
@@ -11,7 +11,7 @@ chmod +x install.sh &&
 ./install.sh &&
 python3 go.py
 ```
-## Arch 
+### Arch 
 
 ```bash
 sudo pacman -S git --noconfirm&&
@@ -21,7 +21,7 @@ chmod +x install.sh &&
 ./install.sh &&
 python3 go.py
 ```
-## Termux 
+### Termux 
 
 ```bash
 pkg install git -y &&
