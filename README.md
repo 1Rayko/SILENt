@@ -1,8 +1,30 @@
 ### SILENt
 
-# Install
+## Install
+# Debian/Ubuntu
+
 ```bash
-apt install git -y &&
+sudo apt install git -y &&
+git clone https://github.com/kotik06/SILENt &&
+cd SILENt &&
+chmod +x install.sh &&
+./install.sh &&
+python3 go.py
+```
+# Arch 
+
+```bash
+sudo pacman -S git --noconfirm&&
+git clone https://github.com/kotik06/SILENt &&
+cd SILENt &&
+chmod +x install.sh &&
+./install.sh &&
+python3 go.py
+```
+# Termux 
+
+```bash
+pkg install git -y &&
 git clone https://github.com/kotik06/SILENt &&
 cd SILENt &&
 chmod +x install.sh &&
