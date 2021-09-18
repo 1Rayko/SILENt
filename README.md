@@ -40,4 +40,4 @@ to create .exe file use pyinstaller and winrar
 
 
 
-# [exaple](https://telegra.ph/SILENt---Spyware-Generator-09-18)
+# [example](https://telegra.ph/SILENt---Spyware-Generator-09-18)
