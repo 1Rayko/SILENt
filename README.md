@@ -1,5 +1,5 @@
 # SILENt
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kotik06&repo=SILENt&show_icons=true&theme=github_dark)](https://github.com/1Rayko/SILENt)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=1Rayko&repo=SILENt&show_icons=true&theme=github_dark)](https://github.com/1Rayko/SILENt)
 ## Install
 ### Debian/Ubuntu
 
