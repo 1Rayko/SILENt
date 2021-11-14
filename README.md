@@ -1,11 +1,11 @@
 # SILENt
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kotik06&repo=SILENt&show_icons=true&theme=github_dark)](https://github.com/kotik06/SILENt)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kotik06&repo=SILENt&show_icons=true&theme=github_dark)](https://github.com/1Rayko/SILENt)
 ## Install
 ### Debian/Ubuntu
 
 ```bash
 sudo apt install git -y &&
-git clone https://github.com/kotik06/SILENt &&
+git clone https://github.com/1Rayko/SILENt &&
 cd SILENt &&
 chmod +x install.sh &&
 ./install.sh
@@ -14,7 +14,7 @@ chmod +x install.sh &&
 
 ```bash
 sudo pacman -S git --noconfirm&&
-git clone https://github.com/kotik06/SILENt &&
+git clone https://github.com/1Rayko/SILENt &&
 cd SILENt &&
 chmod +x install.sh &&
 ./install.sh 
@@ -23,7 +23,7 @@ chmod +x install.sh &&
 
 ```bash
 pkg install git -y &&
-git clone https://github.com/kotik06/SILENt &&
+git clone https://github.com/1Rayko/SILENt &&
 cd SILENt &&
 chmod +x install.sh &&
 ./install.sh
